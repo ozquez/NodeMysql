@@ -6,11 +6,11 @@ module.exports = app =>{
     
     app.get('/', (req, res) => {
         connection.query('SELECT * FROM cat_tiposBonos;', (err, result) =>{
-            // console.log(result);
+            console.log(result);
             
-            res.render('bonos/bonos', {
-                bonos: result
-            })
+            // res.render('bonos/bonos', {
+            //     bonos: result
+            // })
         })
     })
 }
