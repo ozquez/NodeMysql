@@ -1,0 +1,27 @@
+{
+  "name": "NodeMysql",
+  "version": "1.0.0",
+  "description": "Prueba de conexion remota a mysql desde node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozquez/NodeMysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozquez/NodeMysql/issues"
+  },
+  "homepage": "https://github.com/ozquez/NodeMysql#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}

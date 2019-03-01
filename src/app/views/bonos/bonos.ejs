@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">EFO</a>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-6 mt-4 text-center">
+            <table class="table table-striped">
+                <tr>
+                    <th>ID_EVENTO</th>
+                    <th>TIP_Bono</th>
+                    <th>DES_BONO</th>
+                </tr>
+                <% for (var i = 0; i < bonos.length; i ++) { %>
+                    <tr>
+                      <td><%= bonos[i].ID_EVENTO %></td>
+                      <td><%= bonos[i].TIP_BONO %></td>
+                      <td><%= bonos[i].DES_BONO %></td>
+                    </tr>
+                  <% } %>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
