@@ -5,6 +5,6 @@ module.exports = ()=>{
         host: 'localhost',
         user: 'root',
         password: '.adgjmptwmysql',
-        database: 'efoBonos'
+        database: 'efo_bonos'
     })
 }
